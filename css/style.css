@@ -1,0 +1,39 @@
+*, *:after, *:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Lato, sans-serif;
+}
+
+.container{
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+
+/* ===Logo=== */
+.header__logo{
+    color: #fff;
+    font-size: 4.8rem;
+    font-weight: 300;
+}
+
+
+
+/* ===Header=== */
+
+
+
+/* ===Intro=== */
+.intro{
+    background: url('../img/intro.jpg');
+}

@@ -144,3 +144,26 @@ body{
 .btn--intro:hover{
     background-color: #85a6ae;
 }
+
+
+
+/* !===Advertising=== */
+.description__inner{
+    padding: 80px 0 100px;
+}
+
+.description__inner .block-text{
+    font-size: 1.6rem;
+    color: #9fa4a7;
+}
+
+.description__icon-block{
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.description__icon{
+    height: 35px;
+    fill: #000;
+}

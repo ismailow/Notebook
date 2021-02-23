@@ -47,6 +47,7 @@ body{
     font-family: Lato;
     font-size: 2.1rem;
     margin-top: 30px;
+    line-height: 1.4;
 }
 
 .block-text--light{
@@ -118,7 +119,7 @@ body{
 .intro{
     background: url('../img/intro.jpg') center no-repeat ;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
 }
 
 .intro__inner .block-title{
@@ -166,4 +167,128 @@ body{
 .description__icon{
     height: 35px;
     fill: #000;
+}
+
+
+
+/* !===Pricing=== */
+.pricing__inner{
+    padding-bottom: 80px;
+}
+
+.pricing .block-title{
+    font-size: 3rem;
+}
+
+.pricing__block{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pricing__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 290px;
+}
+
+.pricing__title{
+    border-radius: 3px 3px 0 0;
+    padding: 20px 0;
+    font-size: 3rem;
+    font-weight: 300;
+    color: #e9eef2;
+    text-align: center;
+}
+
+.pricing__title--grey{
+    background-color: #535a5e;
+}
+
+.pricing__title--green{
+    background-color: #58ad52;
+}
+
+.pricing__title--blue{
+    background-color: #53a1ad;
+}
+
+.pricing__information{
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #535a5e;
+    font-size: 2.1rem;
+    text-align: center;
+    border-radius: 0 0 3px 3px;
+}
+
+.pricing__information--grey{
+    background-color: #e9eef2;
+}
+
+.pricing__information--green{
+    background-color: #dfebdf;
+}
+
+.pricing__information--blue{
+    background-color: #dee9eb;
+}
+
+.pricing__price{
+    font-weight: 700;
+}
+
+.pricing__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+    height: 60px;
+
+    font-size: 1.8rem;
+    color: #e9eef2;
+    text-decoration: none;
+    font-family: Lato;
+
+    border-radius: 3px;
+}
+
+.pricing__button--grey{
+    background-color: #535a5e;
+    transition: .1s;
+}
+
+.pricing__button--green{
+    background-color: #58ad52;
+    transition: .1s;
+}
+
+.pricing__button--blue{
+    background-color: #53a1ad;
+    transition: .1s;
+}
+
+.pricing__button--grey:hover{
+    background-color: #2c3337;
+}
+
+.pricing__button--green:hover{
+    background-color: #438b3d;
+}
+
+.pricing__button--blue:hover{
+    background-color: #3d8995;
+}
+
+.pricing__comment{
+    margin-top: 50px;
+
+    color: #98a0a5;
+    font-size: 1.5rem;
+    text-align: center;
 }

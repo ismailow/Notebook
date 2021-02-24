@@ -117,6 +117,15 @@ input{
     text-decoration: underline;
 }
 
+.burger__button{
+        display: none;
+    
+        background: none;
+        border: 0;
+        cursor: pointer;
+        z-index: 999;
+}
+
 .burger__line{
     position: relative;
     width: 25px;

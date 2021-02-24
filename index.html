@@ -58,7 +58,7 @@
     <div class="container">
         <div class="header__inner">
             <div class="header__logo">Notebook</div>
-            <nav class="nav">
+            <nav class="nav" id="nav">
                 <ul class="menu">
                     <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">Team</a></li>
@@ -68,11 +68,11 @@
                 </ul>
             </nav>
 
-            <div class="burger">
-                <div class="burger__line"></div>
-                <div class="burger__line"></div>
-                <div class="burger__line"></div>
-            </div>
+            <a id="navToggle">
+                <div class="burger">
+                    <div class="burger__line"></div>
+                </div>
+            </a>
         </div>
     </div>
 </header>
@@ -216,5 +216,8 @@
     </div>
 </footer>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script src="scripts/main.js"></script>
 </body>
 </html>

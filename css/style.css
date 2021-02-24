@@ -118,10 +118,10 @@ input{
 }
 
 .burger__line{
+    position: relative;
     width: 25px;
     height: 2px;
     background-color: #fff;
-    margin: 5px 0;
 }
 
 .burger{
@@ -129,12 +129,18 @@ input{
 }
 
 .burger__line:before{
+    content: "";
+    position: absolute;
+    top: 7px;
     width: 25px;
     height: 2px;
     background-color: #fff;
 }
 
 .burger__line:after{
+    content: "";
+    position: absolute;
+    bottom: 7px;
     width: 25px;
     height: 2px;
     background-color: #fff;
@@ -361,6 +367,7 @@ input{
     height: 110px;
     outline: none;
     padding-top: 20px;
+    font-family: Lato;
 }
 
 input::placeholder{
@@ -441,8 +448,37 @@ textarea::placeholder{
 }
 
 @media (max-width: 570px){
+    .header__inner{
+        position: relative;
+    }
+
+    /* !Nav*/
     nav{
         display: none;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        background-color: #606060;
+        margin-right: 0;
+    }
+
+    .nav.show{
+        display: flex;
+    }
+
+    .menu{
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .menu__item{
+        padding: 12px 15px;
+        margin-left: 20px;
+    }
+
+    .menu__link{
+        font-size: 2.5rem;
     }
 
     .burger{

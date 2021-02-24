@@ -487,10 +487,6 @@ textarea::placeholder{
 }
 
 @media (max-width: 504px){
-    html{
-        font-size: 8px;
-    }
-
     .pricing__block{
         width: 100%;
         padding: 0;

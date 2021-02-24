@@ -118,12 +118,12 @@ input{
 }
 
 .burger__button{
-        display: none;
+    display: none;
     
-        background: none;
-        border: 0;
-        cursor: pointer;
-        z-index: 999;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    z-index: 999;
 }
 
 .burger__line{
